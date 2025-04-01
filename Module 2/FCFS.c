@@ -1,3 +1,11 @@
+// Algorithm
+
+// 1. 
+// 2. 
+// 3. 
+
+
+// Code
 #include<stdio.h>
 
 typedef struct
@@ -15,7 +23,7 @@ void sortProcess(Process p[],int n)
 {
 	for(int i=0;i<n;i++)
 	{
-		for(int j=1;j<n-i-1;j++)
+		for(int j=0;j<n-i-1;j++)
 		{
 			if(p[j].arrivalTime > p[j+1].arrivalTime)
 			{
@@ -31,7 +39,7 @@ void sortPID(Process p[],int n)
 {
 	for(int i=0;i<n;i++)
 	{
-		for(int j=1;j<n-i-1;j++)
+		for(int j=0;j<n-i-1;j++)
 		{
 			if(p[j].pid > p[j+1].pid)
 			{
@@ -123,3 +131,5 @@ void main()
 	
 	Display(p,n);
 }
+
+// Output

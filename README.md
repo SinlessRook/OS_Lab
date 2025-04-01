@@ -14,6 +14,12 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 - [Exit](./Module%201/fork.c) 
 - [Stat](./Module%201/stat.c) 
 - [Directory](./Module%201/directory.c) 
+### Module 2
+- [FCFS](./Module%202/FCFS.c)
+- [SJF](./Module%202/SJF.c)
+
+### Module 3
+- [Bankers_Algorithm](./Module%203/bankersAlgo.c)
 ## Extra Problems
 ### Linux commands
 -  [BasicLinuxCommands](./Other/BasicLinuxCommands.md)
@@ -22,6 +28,8 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 - [Largest_Of_Three_Numbers](./Other/ShellScript/Conditionals/LargestNum.sh)
 - [Get_Name_Of_Month](./Other/ShellScript/Conditionals/MonthName.sh)
 ##### Loops
+- [Odd_Numbers](./Other/ShellScript/loops/Odd.sh)
+- [Prime_Numbers](./Other/ShellScript/loops/Prime.sh) 
 ##### String Manipulation
 ##### File Handling
 
