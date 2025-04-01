@@ -1,3 +1,12 @@
+// Algorithm
+
+// 1. 
+// 2. 
+// 3. 
+
+
+// Code
+
 #include<stdio.h>
 #include<stdbool.h>
 
@@ -123,3 +132,5 @@ void main()
     	// DeadLock Avoidance
     	bankers(nP,nR);
 }
+
+// Output
