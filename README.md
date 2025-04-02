@@ -17,6 +17,7 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 ### Module 2
 - [FCFS](./Module%202/FCFS.c)
 - [SJF](./Module%202/SJF.c)
+- [Round_Robin](./Module%202/RoundRobin.c)
 
 ### Module 3
 - [Bankers_Algorithm](./Module%203/bankersAlgo.c)
@@ -31,8 +32,10 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 - [Odd_Numbers](./Other/ShellScript/loops/Odd.sh)
 - [Prime_Numbers](./Other/ShellScript/loops/Prime.sh) 
 ##### String Manipulation
+- [Palindrome](./Other/ShellScript/Strings/Palindrome.sh)
+- [Vowels](./Other/ShellScript/Strings/Vowel.sh)
 ##### File Handling
-
+- [Read_Words_Starting_with_A](./Other/ShellScript/File/sample.sh)
 ## Imported Libraries
 
 | Library       | Purpose                                                         |
