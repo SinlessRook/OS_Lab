@@ -15,12 +15,20 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 - [Stat](./Module%201/stat.c) 
 - [Directory](./Module%201/directory.c) 
 ### Module 2
-- [FCFS](./Module%202/FCFS.c)
-- [SJF](./Module%202/SJF.c)
-- [Round_Robin](./Module%202/RoundRobin.c)
+- [FCFS](./Module%202/Scheduling%20Algorithms//FCFS.c)
+- [SJF](./Module%202/Scheduling%20Algorithms/SJF.c)
+- [Round_Robin](./Module%202/Scheduling%20Algorithms/RoundRobin.c)
+- [IPC_read](./Module%202/InterProcessCommunication/read.c)
+- [IPC_write](./Module%202/InterProcessCommunication/write.c)
 
 ### Module 3
 - [Bankers_Algorithm](./Module%203/bankersAlgo.c)
+
+### Module 4
+- [Best_Fit](./Module%204/Bestfit.c)
+- [Worst_Fit](./Module%204/WorstFit.c)
+- [First_Fit](./Module%204/FirstFit.c)
+
 ## Extra Problems
 ### Linux commands
 -  [BasicLinuxCommands](./Other/BasicLinuxCommands.md)
@@ -44,8 +52,11 @@ This repository contains 5 modules . Each module focuses on a specific area, pro
 | `#include <sys/stat.h>` | Provides the `stat` structure and function to get file metadata. |
 | `#include <unistd.h>`  | Includes system calls and functions like `stat()`, `fork()`, and `execl()`. |
 | `#include <dirent.h>`  | Provides functions to open, read, and close directories. |
-| `#include <stdlib.h>`  | Used for memory management, process control, and conversions. |
+| `#include <stdlib.h>`  | Used for memory management, process control, and conversions, `exit()` |
 | `#include <sys/wait.h>` | Provides the `wait()` function to synchronize parent and child processes. |
+| `#include <stdio.h>`   | Standard input/output functions like printf() and sprintf()|
+| `#include <sys/ipc.h>` | Defines IPC mechanisms, including shared memory, contains `ftok()` and `key_t` and `IPC_CREAT`|
+| `#include <sys/shm.h>` | Provides functions for shared memory operations, such as `shmget()`, `shmat()`, and `shmdt()`|
 
 ## Struct Variables
 
